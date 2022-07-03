@@ -1,0 +1,5 @@
+# cat=Configuration; type=string; label=Origin: Matching origin
+origin = https://localhost:3000
+
+# cat=Configuration; type=boolean; label=Enable Authorization header
+enableAuthorizationHeader = 0

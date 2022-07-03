@@ -1,0 +1,31 @@
+{
+    "name": "schoenbeck/cors_middleware",
+    "description": "cors_middleware",
+    "type": "typo3-cms-extension",
+    "autoload": {
+        "psr-4": {
+            "SCHOENBECK\\CorsMiddleware\\": "Classes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lukas Schönbeck",
+            "email": "lukas.schoenbeck@hdnet.de"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^11.0.0",
+        "tuupola/cors-middleware": "^1.3"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "t3_cors_middleware"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "typo3/cms-composer-installers": true,
+            "typo3/class-alias-loader": true
+        }
+    }
+}
