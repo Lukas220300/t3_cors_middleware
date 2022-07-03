@@ -2,6 +2,7 @@
     "name": "schoenbeck/cors_middleware",
     "description": "cors_middleware",
     "type": "typo3-cms-extension",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
             "SCHOENBECK\\CorsMiddleware\\": "Classes/"
